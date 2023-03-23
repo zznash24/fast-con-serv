@@ -775,11 +775,11 @@ strong {
 }
 
 .navbar-toggler .navbar-toggler-icon {
-  background: var(--dark-color);
+  background: white;
   transition: background 10ms 300ms ease;
   display: block;
   width: 30px;
-  height: 2px;
+  height: 4px;
   position: relative;
 }
 
@@ -791,9 +791,9 @@ strong {
   position: absolute;
   right: 0;
   left: 0;
-  background: var(--dark-color);
+  background: white;
   width: 30px;
-  height: 2px;
+  height: 4px;
   content: '';
 }
 
@@ -1635,11 +1635,11 @@ strong {
 
 }
 
-@media screen and (max-width: 522px) {
+/* @media screen and (max-width: 522px) {
   .ms-2 {
     visibility: hidden;
   }
-}
+} */
 
 @media screen and (max-width: 480px) {
   h1 {
@@ -1665,7 +1665,7 @@ strong {
 
 /* Adding additional CSS */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .cName {
     visibility: hidden;
   }
@@ -1677,4 +1677,6 @@ strong {
   .companyLogoName {
     display: none;
   }
+
+  
 }
