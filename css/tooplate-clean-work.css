@@ -637,9 +637,8 @@ strong {
 
 .logo {
   background-color: var(--white-color);
-  border-radius: var(--border-radius-large);
-  width: 80px;
-  height: 80px;
+  border-radius: 50%;
+  height: 255px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
