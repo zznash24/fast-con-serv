@@ -10,7 +10,7 @@
 
     // BACKSTRETCH SLIDESHOW
     $('.hero-section').backstretch([
-      "images/slideshow/BUILDING-feature-image.jpg", 
+      "images/slideshow/fastener-slide.jpg", 
       "images/slideshow/handshake.jpg",
       "images/slideshow/lcb-construction-cardiff1.jpg"
     ],  {duration: 2000, fade: 750});

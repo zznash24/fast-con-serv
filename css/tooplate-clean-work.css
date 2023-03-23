@@ -640,7 +640,6 @@ strong {
   border-radius: var(--border-radius-large);
   width: 80px;
   height: 80px;
-  padding: 15px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -878,7 +877,7 @@ strong {
   BANNER        
 -----------------------------------------*/
 .banner-section {
-  background-image: url('../images/slideshow/BUILDING-feature-image.jpg');
+  background-image: url('../images/slideshow/fastener-slide.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
