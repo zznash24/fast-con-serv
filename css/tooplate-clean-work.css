@@ -1644,10 +1644,14 @@ strong {
     .cTime {
         visibility: hidden;
     }
-    /* .site-header {
+     .site-header {
         justify-content: center;
-    } */
+    }
+    .companyLogoName {
+      display: none;
+    }
 }
+
 .navbar>.container,
 .navbar>.container-fluid,
 .navbar>.container-lg,
