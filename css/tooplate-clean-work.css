@@ -736,6 +736,7 @@ strong {
     margin-top: 0;
     pointer-events: auto;
   }
+
   .navbar-collapse {
     background-color: transparent;
   }
@@ -825,6 +826,11 @@ strong {
 .site-header .social-icon-link {
   color: var(--white-color);
   font-size: 16px;
+}
+
+.site-header p {
+  border: .5px solid gray;
+  margin-left: 20px;
 }
 
 .site-header .social-icon {
@@ -1665,14 +1671,10 @@ strong {
 /* Adding additional CSS */
 
 @media screen and (max-width: 991px) {
-  .cName {
+  .companyNameHours {
     visibility: hidden;
+    display: none;
   }
-
-  .cTime {
-    visibility: hidden;
-  }
-
   .companyLogoName {
     display: none;
   }
