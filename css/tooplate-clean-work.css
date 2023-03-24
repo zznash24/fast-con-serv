@@ -830,7 +830,6 @@ strong {
 
 .site-header p {
   border: .5px solid gray;
-  margin-left: 20px;
 }
 
 .site-header .social-icon {
@@ -1621,7 +1620,11 @@ strong {
     margin-bottom: 10px;
   }
 }
-
+@media screen and (min-width: 767px ) and (max-width: 991px) {
+  .site-header p {
+    margin-left: 5px;
+}
+}
 @media screen and (max-width: 767px) {
 
   .custom-btn {
@@ -1642,6 +1645,9 @@ strong {
     bottom: auto;
     right: 0;
     left: 0;
+  }
+  .site-header p {
+    margin-left: 66px;
   }
 
 }
@@ -1666,6 +1672,9 @@ strong {
   h5 {
     font-size: 20px;
   }
+  .site-header p {
+    margin-left: 20px;
+  }
 }
 
 /* Adding additional CSS */
@@ -1678,5 +1687,5 @@ strong {
   .companyLogoName {
     display: none;
   }
-
+  
 }
