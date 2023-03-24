@@ -743,10 +743,10 @@ strong {
 
 .navbar-toggler {
   border: 0;
-  padding: 4px;
+  padding: 2px;
   cursor: pointer;
   margin: 0;
-  width: 38px;
+  width: 33px;
   height: 35px;
   outline: none;
   background-color: #000000;
@@ -824,7 +824,7 @@ strong {
 .site-header p a,
 .site-header .social-icon-link {
   color: var(--white-color);
-  font-size: var(--copyright-font-size);
+  font-size: 16px;
 }
 
 .site-header .social-icon {
@@ -1676,6 +1676,5 @@ strong {
   .companyLogoName {
     display: none;
   }
-
 
 }
