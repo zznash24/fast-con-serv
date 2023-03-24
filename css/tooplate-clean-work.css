@@ -135,11 +135,10 @@ strong {
 }
 
 .section-bg {
-  background-color: var(--section-bg-color);
+  background-color: rgb(223, 222, 222);
 }
 
 .section-overlay {
-  background-color: var(--secondary-color);
   position: absolute;
   top: 0;
   left: 0;
@@ -581,7 +580,7 @@ strong {
   CUSTOM BUTTON               
 -----------------------------------------*/
 .custom-btn {
-  background: var(--custom-btn-bg-color);
+  background: black;
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
@@ -737,6 +736,9 @@ strong {
     margin-top: 0;
     pointer-events: auto;
   }
+  .navbar-collapse {
+    background-color: transparent;
+  }
 }
 
 .navbar-toggler {
@@ -810,7 +812,7 @@ strong {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background: var(--primary-color);
+  background: black;
   position: relative;
   z-index: 22;
   padding-top: 15px;
@@ -1063,7 +1065,7 @@ strong {
 }
 
 .services-icon-wrap {
-  background: var(--secondary-color);
+  background: black;
   color: var(--white-color);
   font-size: var(--h3-font-size);
   position: absolute;
@@ -1174,14 +1176,16 @@ strong {
   background: var(--white-color);
   border-radius: var(--border-radius-medium);
   display: inline-block;
-  margin-top: 20px;
-  padding: 40px;
+  /* margin-top: 20px; */
+  padding: 15px;
+  width: 100%;
 }
 
 .team-info a,
 .contact-info h5,
 .contact-info h5 a {
   color: var(--p-color);
+  font-size: 16px;
 }
 
 .team-info a:hover,
@@ -1559,11 +1563,11 @@ strong {
   }
 
   .navbar-nav .nav-link {
-    color: var(--p-color);
+    color: white;
   }
 
   .navbar-expand-lg .navbar-nav {
-    padding-bottom: 30px;
+    margin: 5px;
   }
 
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -1635,12 +1639,6 @@ strong {
 
 }
 
-/* @media screen and (max-width: 522px) {
-  .ms-2 {
-    visibility: hidden;
-  }
-} */
-
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 40px;
@@ -1678,5 +1676,5 @@ strong {
     display: none;
   }
 
-  
+
 }
