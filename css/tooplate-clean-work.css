@@ -747,7 +747,7 @@ strong {
   padding: 2px;
   cursor: pointer;
   margin: 0;
-  width: 33px;
+  width: 32px;
   height: 35px;
   outline: none;
   background-color: #000000;
@@ -863,6 +863,7 @@ strong {
 .hero-section .container {
   position: relative;
   z-index: 2;
+  background-color: gray0;
 }
 
 .hero-section svg {
