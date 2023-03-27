@@ -746,7 +746,7 @@ strong {
   border: 0;
   padding: 2px;
   cursor: pointer;
-  margin: 0;
+  margin-left: 5px;
   width: 32px;
   height: 35px;
   outline: none;
@@ -828,9 +828,6 @@ strong {
   font-size: 16px;
 }
 
-.site-header p {
-  border: .5px solid gray;
-}
 
 .site-header .social-icon {
   text-align: right;
@@ -863,7 +860,7 @@ strong {
 .hero-section .container {
   position: relative;
   z-index: 2;
-  background-color: gray0;
+  background-color: gray;
 }
 
 .hero-section svg {
@@ -1517,7 +1514,7 @@ strong {
   .navbar>.container-sm,
   .navbar>.container-xl,
   .navbar>.container-xxl {
-    flex-direction: row-reverse;
+    margin-left: 30px;
   }
 }
 
@@ -1687,6 +1684,9 @@ strong {
   }
   .companyLogoName {
     display: none;
-  }
-  
+  } 
+}
+
+@media screen and (min-width: 991px) {
+
 }
