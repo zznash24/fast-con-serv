@@ -1688,5 +1688,7 @@ strong {
 }
 
 @media screen and (min-width: 991px) {
-
+  .navbar-toggler {
+    background-color: #000000;
+  }
 }
