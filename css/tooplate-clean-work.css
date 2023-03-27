@@ -1505,18 +1505,7 @@ strong {
   }
 }
 
-@media screen and (min-width: 991px) {
 
-  .navbar>.container,
-  .navbar>.container-fluid,
-  .navbar>.container-lg,
-  .navbar>.container-md,
-  .navbar>.container-sm,
-  .navbar>.container-xl,
-  .navbar>.container-xxl {
-    margin-left: 30px;
-  }
-}
 
 @media screen and (max-width: 991px) {
   h1 {
@@ -1618,11 +1607,13 @@ strong {
     margin-bottom: 10px;
   }
 }
-@media screen and (min-width: 767px ) and (max-width: 991px) {
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
   .site-header p {
     margin-left: 5px;
+  }
 }
-}
+
 @media screen and (max-width: 767px) {
 
   .custom-btn {
@@ -1644,6 +1635,7 @@ strong {
     right: 0;
     left: 0;
   }
+
   .site-header p {
     margin-left: 66px;
   }
@@ -1670,6 +1662,7 @@ strong {
   h5 {
     font-size: 20px;
   }
+
   .site-header p {
     margin-left: 20px;
   }
@@ -1682,13 +1675,21 @@ strong {
     visibility: hidden;
     display: none;
   }
+
   .companyLogoName {
     display: none;
-  } 
+  }
 }
 
 @media screen and (min-width: 991px) {
-  .navbar-toggler {
+  .navbar-collapse {
     background-color: #000000;
+  }
+  .containerNav {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #navbarNav {
+    margin-left: 15px;;
   }
 }
