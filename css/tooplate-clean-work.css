@@ -746,7 +746,8 @@ strong {
   border: 0;
   padding: 2px;
   cursor: pointer;
-  margin-left: 5px;
+  margin-left: -15px;
+  margin-right: 5px;
   width: 32px;
   height: 35px;
   outline: none;
@@ -852,15 +853,15 @@ strong {
 .hero-section {
   position: relative;
   overflow: hidden;
-  padding-top: 100px;
+  padding-top: 265px;
   padding-bottom: 100px;
-  min-height: 680px;
+  min-height: 425px;
 }
 
 .hero-section .container {
   position: relative;
   z-index: 2;
-  background-color: gray;
+  background-color: rgba(0, 0, 0, 0.489);
 }
 
 .hero-section svg {
@@ -1685,11 +1686,14 @@ strong {
   .navbar-collapse {
     background-color: #000000;
   }
+
   .containerNav {
     margin-right: 0;
     margin-left: 0;
   }
+
   #navbarNav {
-    margin-left: 15px;;
+    margin-left: 15px;
+    ;
   }
 }
