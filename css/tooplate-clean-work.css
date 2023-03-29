@@ -1681,6 +1681,10 @@ strong {
   .companyLogoName {
     display: none;
   }
+  #navbarNav {
+    margin-left: 15px;
+    
+  }
 }
 
 @media screen and (min-width: 991px) {
@@ -1695,7 +1699,7 @@ strong {
 
   #navbarNav {
     margin-left: -7px;
-    ;
+
   }
 
   .pageHead {
