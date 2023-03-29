@@ -640,6 +640,7 @@ strong {
   color: var(--white-color);
   font-size: var(--h6-font-size);
   font-weight: var(--font-weight-light);
+  margin-right: 0;
 }
 
 .logo {
@@ -1693,7 +1694,11 @@ strong {
   }
 
   #navbarNav {
-    margin-left: 15px;
+    margin-left: -7px;
     ;
+  }
+  .pageHead {
+    width: 240px;
+    background: #000000;
   }
 }
