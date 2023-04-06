@@ -1668,6 +1668,9 @@ strong {
   .site-header p {
     margin-left: 20px;
   }
+  .consulting-form{
+    padding: 25px;
+  }
 }
 
 /* Adding additional CSS */
