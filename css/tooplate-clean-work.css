@@ -1671,6 +1671,9 @@ strong {
   .consulting-form{
     padding: 25px;
   }
+  .companyCatalogsTitle{
+    width: 200px;
+  }
 }
 
 /* Adding additional CSS */
@@ -1709,4 +1712,7 @@ strong {
     width: 240px;
     background: #000000;
   }
+}
+ul {
+  list-style-type: none;
 }
